@@ -1,123 +1,42 @@
-/* CSS Document for module 2 solution */
-   * {
-        box-sizing: border-box;
-    }
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar{
 
-    body {
-        background-color: white;
-    }
+border: none;
+background-color: black;
+color: #61122F;
+}
+body{
+	background-color: #61122F;
+	color: white;
+}
+.glyphicon{
+	font-size: 30px;
+	color:#61122F; 
+}
 
-    h1 {
-	margin-top:30px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 175%;
-	font-family:Arial, Helvetica, sans-serif;
-    }
+.center{
+	width: 90%;
+	background-color: grey;
 
-    section {
-        position: relative;
-        padding: 15px;
-        width: 90%;
-    }
+}
+.container
+{
+	background-color: grey;
+}
+.text-center{
+	font-size: 30px;
+}
 
-    p {
-        position: relative;
-        clear: right;
-		font-family:Arial, Helvetica, sans-serif
-    }
-
-    div {
-        position: relative;
-        background-color: gray;
-        border: 3.5px solid black;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-    }
-
-    .food1 {
-        float: right;
-        width: 200px;
-        padding: 7.5px;     
-        text-align: center;
-        font-size: 125%;
-        font-weight:700 ;
-        background-color: #d59898;
-		margin: -3px -3px 0px;
-        border: 3.5px solid black;
-    }
-
-    .food2 {
-        float: right;
-        margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight:700;
-        background-color: #c14543;
-		color: white;
-        width: 200px;
-        padding: 7.5px;
-
-    }
-
-    .food3 {
-        color: black;
-        float: right;
-        width: 200px;
-        padding: 7.5px;
-        margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: 700;
-        background-color: #e5d198;
-
-    }
-
-    .content {
-        padding: 5px;
-        border: none;
-        background-color: gray;
-        font-family: Helvetica;
-        color: black;
-        margin: 3px ;
-        height: 150px;
-        overflow:hidden;
-		font-weight:bold;
-    }
-
-    .row {
-        width: 90%;
-    }
-
-    
-    @media (min-width: 992px) {
-        .column-lg-4 {
-            float: left;
-            width: 33.33%;
-        }
-    }
-    @media (min-width: 768px) and (max-width: 991px) {
-        .column-md-6 {
-            float: left;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .column-md-12 {
-            float: left;
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-    @media (max-width: 767px) {
-        .column-sm-12 {
-            float: left;
-            width: 100%;
-        }
-    }
+h2{
+	text-align: center;
+}
+#myNavbar ul li a {
+	color: #61122F;
+}
+.navbar-brand{
+font-size: 30px;	
+}
